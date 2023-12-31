@@ -1,0 +1,13 @@
+{
+    "name": "webei/orkestra-skeleton",
+    "description": "My Orkestra application",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "require": {
+        "webei/orkestra": "v1.0.0-beta.1"
+    }
+}

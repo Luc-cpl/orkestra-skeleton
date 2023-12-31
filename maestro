@@ -1,0 +1,19 @@
+<?php
+
+use Orkestra\Handlers\CommandsHandler;
+
+if (php_sapi_name() !== 'cli') {
+	die("Maestro app must be run from the command line.");
+}
+
+if (version_compare(phpversion(), '8.1.0', '<')) {
+	die("Maestro app requires PHP 8.1.0 or newer.");
+}
+
+require_once __DIR__ . '/bootstrap/app.php';
+
+App\config()->set('env', 'development');
+App\config()->set('root', getcwd());
+
+App\app()->boot();
+App\app()->get(CommandsHandler::class)->handle();

@@ -1,0 +1,12 @@
+{{ language('eng') }}
+{{ header_tag(tag='title', content="#{route.title} - Orkestra App") }}
+{{ script('https://cdn.tailwindcss.com') }}
+
+<div class="h-screen bg-[url('/img/background.jpg')]">
+	<div class="flex flex-col items-center justify-center h-screen text-white bg-slate-900/[.85] backdrop-blur-sm">
+    	{% block content %}{% endblock %}
+		<div class="absolute bottom-0 right-0 p-4 text-xs text-gray-400">
+			Picture from <a href="https://unsplash.com/pt-br/@josepmolina?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" class="underline text-white">Josep Molina Secall</a> on <a href="https://unsplash.com/pt-br/fotografias/violino-preto-no-papel-de-parede-digital-subaquatico-yO4XF2uC4g0?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" class="underline text-white">Unsplash</a>
+		</div>
+	</div>
+</div>
