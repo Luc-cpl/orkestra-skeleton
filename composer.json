@@ -9,6 +9,6 @@
     },
     "version": "1.0.0",
     "require": {
-        "webei/orkestra": "v1.0.0-beta.2"
+        "webei/orkestra": "1.0.0-beta.3"
     }
 }

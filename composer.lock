@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "39ca2fb53a32447132b6ab0db5ef0b49",
+    "content-hash": "6159dbb5560cfab4e3ad1a12b0d2608a",
     "packages": [
         {
             "name": "laminas/laminas-diactoros",
@@ -93,16 +93,16 @@
         },
         {
             "name": "laminas/laminas-httphandlerrunner",
-            "version": "2.9.0",
+            "version": "2.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laminas/laminas-httphandlerrunner.git",
-                "reference": "d3e84755a17e563b1c5f8290cbfb150210501a77"
+                "reference": "35a0ba92e940a2f9533754f5a56187fa321f7693"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laminas/laminas-httphandlerrunner/zipball/d3e84755a17e563b1c5f8290cbfb150210501a77",
-                "reference": "d3e84755a17e563b1c5f8290cbfb150210501a77",
+                "url": "https://api.github.com/repos/laminas/laminas-httphandlerrunner/zipball/35a0ba92e940a2f9533754f5a56187fa321f7693",
+                "reference": "35a0ba92e940a2f9533754f5a56187fa321f7693",
                 "shasum": ""
             },
             "require": {
@@ -113,10 +113,10 @@
             },
             "require-dev": {
                 "laminas/laminas-coding-standard": "~2.5.0",
-                "laminas/laminas-diactoros": "^3.0.0",
-                "phpunit/phpunit": "^10.1.2",
+                "laminas/laminas-diactoros": "^3.3.0",
+                "phpunit/phpunit": "^10.5.5",
                 "psalm/plugin-phpunit": "^0.18.4",
-                "vimeo/psalm": "^5.11"
+                "vimeo/psalm": "^5.18"
             },
             "type": "library",
             "extra": {
@@ -156,7 +156,7 @@
                     "type": "community_bridge"
                 }
             ],
-            "time": "2023-09-04T10:43:03+00:00"
+            "time": "2024-01-04T10:50:34+00:00"
         },
         {
             "name": "laravel/serializable-closure",
@@ -1640,20 +1640,20 @@
         },
         {
             "name": "symfony/string",
-            "version": "v6.4.2",
+            "version": "v7.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/string.git",
-                "reference": "7cb80bc10bfcdf6b5492741c0b9357dac66940bc"
+                "reference": "cc78f14f91f5e53b42044d0620961c48028ff9f5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/string/zipball/7cb80bc10bfcdf6b5492741c0b9357dac66940bc",
-                "reference": "7cb80bc10bfcdf6b5492741c0b9357dac66940bc",
+                "url": "https://api.github.com/repos/symfony/string/zipball/cc78f14f91f5e53b42044d0620961c48028ff9f5",
+                "reference": "cc78f14f91f5e53b42044d0620961c48028ff9f5",
                 "shasum": ""
             },
             "require": {
-                "php": ">=8.1",
+                "php": ">=8.2",
                 "symfony/polyfill-ctype": "~1.8",
                 "symfony/polyfill-intl-grapheme": "~1.0",
                 "symfony/polyfill-intl-normalizer": "~1.0",
@@ -1663,11 +1663,11 @@
                 "symfony/translation-contracts": "<2.5"
             },
             "require-dev": {
-                "symfony/error-handler": "^5.4|^6.0|^7.0",
-                "symfony/http-client": "^5.4|^6.0|^7.0",
-                "symfony/intl": "^6.2|^7.0",
+                "symfony/error-handler": "^6.4|^7.0",
+                "symfony/http-client": "^6.4|^7.0",
+                "symfony/intl": "^6.4|^7.0",
                 "symfony/translation-contracts": "^2.5|^3.0",
-                "symfony/var-exporter": "^5.4|^6.0|^7.0"
+                "symfony/var-exporter": "^6.4|^7.0"
             },
             "type": "library",
             "autoload": {
@@ -1706,7 +1706,7 @@
                 "utf8"
             ],
             "support": {
-                "source": "https://github.com/symfony/string/tree/v6.4.2"
+                "source": "https://github.com/symfony/string/tree/v7.0.2"
             },
             "funding": [
                 {
@@ -1722,7 +1722,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-12-10T16:15:48+00:00"
+            "time": "2023-12-10T16:54:46+00:00"
         },
         {
             "name": "twig/markdown-extra",
@@ -1866,16 +1866,16 @@
         },
         {
             "name": "webei/orkestra",
-            "version": "v1.0.0-beta.2",
+            "version": "v1.0.0-beta.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Luc-cpl/orkestra.git",
-                "reference": "ba9501ea4ed895eb555114a514cc58da9b9f1fa1"
+                "reference": "ad999c845aaa56b713690ecf50e2e3d11b21f2fa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Luc-cpl/orkestra/zipball/ba9501ea4ed895eb555114a514cc58da9b9f1fa1",
-                "reference": "ba9501ea4ed895eb555114a514cc58da9b9f1fa1",
+                "url": "https://api.github.com/repos/Luc-cpl/orkestra/zipball/ad999c845aaa56b713690ecf50e2e3d11b21f2fa",
+                "reference": "ad999c845aaa56b713690ecf50e2e3d11b21f2fa",
                 "shasum": ""
             },
             "require": {
@@ -1916,9 +1916,9 @@
             ],
             "support": {
                 "issues": "https://github.com/Luc-cpl/orkestra/issues",
-                "source": "https://github.com/Luc-cpl/orkestra/tree/v1.0.0-beta.2"
+                "source": "https://github.com/Luc-cpl/orkestra/tree/v1.0.0-beta.3"
             },
-            "time": "2023-12-31T03:17:45+00:00"
+            "time": "2024-01-15T20:31:59+00:00"
         }
     ],
     "packages-dev": [],
