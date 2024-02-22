@@ -7,8 +7,8 @@
             "App\\": "src/"
         }
     },
-    "version": "1.0.3",
+    "version": "1.0.4",
     "require": {
-        "webei/orkestra": "1.0.0-beta.5"
+        "webei/orkestra": "1.0.0-beta.6"
     }
 }
