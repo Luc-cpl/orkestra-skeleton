@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8432aae3b9b506c0dbbc1038afca98ba",
+    "content-hash": "fe229698c77848d6a64a54fbbf8eb57b",
     "packages": [
         {
             "name": "laminas/laminas-diactoros",
@@ -1851,16 +1851,16 @@
         },
         {
             "name": "webei/orkestra",
-            "version": "v1.0.0-beta.5",
+            "version": "v1.0.0-beta.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Luc-cpl/orkestra.git",
-                "reference": "0ae93103f8584a145a9ebaa06769327b1a29885c"
+                "reference": "d24294e8bc0167e3ac0f99b86ff1ce77de00669e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Luc-cpl/orkestra/zipball/0ae93103f8584a145a9ebaa06769327b1a29885c",
-                "reference": "0ae93103f8584a145a9ebaa06769327b1a29885c",
+                "url": "https://api.github.com/repos/Luc-cpl/orkestra/zipball/d24294e8bc0167e3ac0f99b86ff1ce77de00669e",
+                "reference": "d24294e8bc0167e3ac0f99b86ff1ce77de00669e",
                 "shasum": ""
             },
             "require": {
@@ -1901,9 +1901,9 @@
             ],
             "support": {
                 "issues": "https://github.com/Luc-cpl/orkestra/issues",
-                "source": "https://github.com/Luc-cpl/orkestra/tree/v1.0.0-beta.5"
+                "source": "https://github.com/Luc-cpl/orkestra/tree/v1.0.0-beta.7"
             },
-            "time": "2024-02-21T22:10:54+00:00"
+            "time": "2024-02-24T21:33:24+00:00"
         }
     ],
     "packages-dev": [],
