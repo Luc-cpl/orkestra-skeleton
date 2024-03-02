@@ -1,5 +1,5 @@
 {
-    "name": "webei/orkestra-skeleton",
+    "name": "orkestra/framework-skeleton",
     "description": "My Orkestra application",
     "type": "project",
     "autoload": {
@@ -7,8 +7,8 @@
             "App\\": "src/"
         }
     },
-    "version": "1.0.5",
+    "version": "1.0.6",
     "require": {
-        "webei/orkestra": "1.0.0-beta.7"
+        "webei/orkestra": "1.0.0-rc.1"
     }
 }
