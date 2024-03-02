@@ -1,5 +1,5 @@
 {
-    "name": "orkestra/framework-skeleton",
+    "name": "luccpl/orkestra-skeleton",
     "description": "My Orkestra application",
     "type": "project",
     "autoload": {
@@ -9,6 +9,6 @@
     },
     "version": "1.0.6",
     "require": {
-        "webei/orkestra": "1.0.0-rc.1"
+        "luccpl/orkestra": "1.0.0-rc.1"
     }
 }

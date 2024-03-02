@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8019726bf4c53e97aac64969058c01a4",
+    "content-hash": "3ac58107079992c0434c6fa8159413b8",
     "packages": [
         {
             "name": "fakerphp/faker",
@@ -369,6 +369,64 @@
                 }
             ],
             "time": "2021-07-30T08:33:09+00:00"
+        },
+        {
+            "name": "luccpl/orkestra",
+            "version": "v1.0.0-rc.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Luc-cpl/orkestra.git",
+                "reference": "124b2d0fc0bd0ec72e94927d9213a7e85bb9564a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Luc-cpl/orkestra/zipball/124b2d0fc0bd0ec72e94927d9213a7e85bb9564a",
+                "reference": "124b2d0fc0bd0ec72e94927d9213a7e85bb9564a",
+                "shasum": ""
+            },
+            "require": {
+                "fakerphp/faker": "^1.23",
+                "laminas/laminas-diactoros": "^3.3",
+                "laminas/laminas-httphandlerrunner": "^2.9",
+                "league/route": "^5.1",
+                "php": ">=8.1",
+                "php-di/php-di": "^7.0",
+                "rakit/validation": "^1.4",
+                "symfony/console": "^6.3",
+                "symfony/process": "^6.3",
+                "twig/markdown-extra": "^3.7",
+                "twig/twig": "^3.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "^1.6",
+                "pestphp/pest": "^2.34",
+                "phpstan/phpstan": "^1.10"
+            },
+            "type": "project",
+            "autoload": {
+                "psr-4": {
+                    "Orkestra\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Lucas Carvalho",
+                    "email": "lucas.carvalhopl@outlook.com"
+                }
+            ],
+            "description": "Orchestration for PHP applications",
+            "keywords": [
+                "orkestra"
+            ],
+            "support": {
+                "issues": "https://github.com/Luc-cpl/orkestra/issues",
+                "source": "https://github.com/Luc-cpl/orkestra/tree/v1.0.0-rc.1"
+            },
+            "time": "2024-03-02T01:48:26+00:00"
         },
         {
             "name": "nikic/fast-route",
@@ -1911,71 +1969,13 @@
                 }
             ],
             "time": "2023-11-21T18:54:41+00:00"
-        },
-        {
-            "name": "webei/orkestra",
-            "version": "v1.0.0-rc.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Luc-cpl/orkestra.git",
-                "reference": "9352e3b639b7a1ce39c77c3c9301ba1456e8b263"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Luc-cpl/orkestra/zipball/9352e3b639b7a1ce39c77c3c9301ba1456e8b263",
-                "reference": "9352e3b639b7a1ce39c77c3c9301ba1456e8b263",
-                "shasum": ""
-            },
-            "require": {
-                "fakerphp/faker": "^1.23",
-                "laminas/laminas-diactoros": "^3.3",
-                "laminas/laminas-httphandlerrunner": "^2.9",
-                "league/route": "^5.1",
-                "php": ">=8.0",
-                "php-di/php-di": "^7.0",
-                "rakit/validation": "^1.4",
-                "symfony/console": "^6.3",
-                "symfony/process": "^6.3",
-                "twig/markdown-extra": "^3.7",
-                "twig/twig": "^3.0"
-            },
-            "require-dev": {
-                "mockery/mockery": "^1.6",
-                "pestphp/pest": "^2.34",
-                "phpstan/phpstan": "^1.10"
-            },
-            "type": "project",
-            "autoload": {
-                "psr-4": {
-                    "Orkestra\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Luc-cpl",
-                    "email": "lucas.carvalhopl@outlook.com"
-                }
-            ],
-            "description": "Orchestration for PHP applications",
-            "keywords": [
-                "orkestra"
-            ],
-            "support": {
-                "issues": "https://github.com/Luc-cpl/orkestra/issues",
-                "source": "https://github.com/Luc-cpl/orkestra/tree/v1.0.0-rc.1"
-            },
-            "time": "2024-02-29T20:19:26+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "webei/orkestra": 5
+        "luccpl/orkestra": 5
     },
     "prefer-stable": false,
     "prefer-lowest": false,
