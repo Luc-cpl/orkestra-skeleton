@@ -6,8 +6,8 @@ if (php_sapi_name() !== 'cli') {
 	die("Maestro app must be run from the command line.");
 }
 
-if (version_compare(phpversion(), '8.1.0', '<')) {
-	die("Maestro app requires PHP 8.1.0 or newer.");
+if (version_compare(phpversion(), '8.2.0', '<')) {
+	die("Maestro app requires PHP 8.2.0 or newer.");
 }
 
 require_once __DIR__ . '/bootstrap/app.php';
