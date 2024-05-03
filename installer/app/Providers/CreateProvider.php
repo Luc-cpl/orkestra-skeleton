@@ -4,13 +4,13 @@ namespace Orkestra\Skeleton\Providers;
 
 use Orkestra\App;
 use Orkestra\Interfaces\ProviderInterface;
-use Orkestra\Skeleton\Commands\InstallCommand;
+use Orkestra\Skeleton\Commands\CreateCommand;
 use Orkestra\Skeleton\Maker\MakerData;
 
-class InstallerProvider implements ProviderInterface
+class CreateProvider implements ProviderInterface
 {
 	public array $commands = [
-		InstallCommand::class,
+		CreateCommand::class,
 	];
 
 	public function register(App $app): void

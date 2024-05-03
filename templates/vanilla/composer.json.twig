@@ -3,7 +3,8 @@
         render: renderData,
         slug: 'package_name',
         title: 'Package Name',
-        default: 'my-app',
+        default: 'myapp/app',
+        validation: 'regex:/^[a-z0-9]+([_.-]?[a-z0-9]+)*\\/[a-z0-9]+([_.-]?[a-z0-9]+)*$/'
     }) }}",
     "description": "{{ maker({
         render: renderData,

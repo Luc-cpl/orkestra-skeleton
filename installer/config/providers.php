@@ -3,11 +3,11 @@
 use Orkestra\Providers\CommandsProvider;
 use Orkestra\Providers\HooksProvider;
 use Orkestra\Providers\ViewProvider;
-use Orkestra\Skeleton\Providers\InstallerProvider;
+use Orkestra\Skeleton\Providers\CreateProvider;
 
 return [
 	CommandsProvider::class,
 	HooksProvider::class,
 	ViewProvider::class,
-	InstallerProvider::class,
+	CreateProvider::class,
 ];
