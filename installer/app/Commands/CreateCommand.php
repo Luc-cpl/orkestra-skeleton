@@ -13,6 +13,7 @@ use Symfony\Component\Console\Helper\QuestionHelper;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Output\OutputInterface;
+use Symfony\Component\Console\Question\ChoiceQuestion;
 use Symfony\Component\Console\Question\Question;
 use Twig\Environment;
 use Twig\Loader\FilesystemLoader;
@@ -45,8 +46,22 @@ class CreateCommand extends Command
 
 		$root = $this->config->get('root');
 
-		/** @todo add more options */
-		$appTemplate = 'vanilla';
+		$availableTemplates = array_values(array_diff(scandir($this->joinPath($root, 'templates')), ['.', '..']));
+
+		$appTemplate = $availableTemplates[0];
+
+		if (count($availableTemplates) > 1) {
+			/** @var QuestionHelper */
+			$helper = $this->getHelper('question');
+			$question = new ChoiceQuestion(
+				'<info>Please select a template</info>',
+				$availableTemplates,
+			);
+			$question->setErrorMessage('Template "%s" is invalid.');
+
+			$appTemplate = $helper->ask($input, $output, $question);
+		}
+
 		$tmpDir = $this->joinPath($root, 'tmp');
 		$appTemplateDir = $this->joinPath($root, 'templates', $appTemplate);
 
