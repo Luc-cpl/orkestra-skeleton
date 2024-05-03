@@ -1,0 +1,25 @@
+{
+    "name": "{{ maker({
+        render: renderData,
+        slug: 'package_name',
+        title: 'Package Name',
+        default: 'myapp/app',
+        validation: 'regex:/^[a-z0-9]+([_.-]?[a-z0-9]+)*\\/[a-z0-9]+([_.-]?[a-z0-9]+)*$/'
+    }) }}",
+    "description": "{{ maker({
+        render: renderData,
+        slug: 'package_description',
+        title: 'Package Description',
+        default: 'My App',
+    }) }}",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app"
+        }
+    },
+    "version": "0.0.1",
+    "require": {
+        "luccpl/orkestra": "^1.0"
+    }
+}

@@ -2,9 +2,16 @@
     "name": "luccpl/orkestra-skeleton",
     "description": "My Orkestra application",
     "type": "project",
+    "scripts": {
+        "post-create-project-cmd": [
+            "composer install --no-dev --no-interaction -q",
+            "php maestro app:create --replace",
+            "composer install"
+        ]
+    },
     "autoload": {
         "psr-4": {
-            "App\\": "src/"
+            "Orkestra\\Skeleton\\": "installer/app"
         }
     },
     "version": "1.0.0",

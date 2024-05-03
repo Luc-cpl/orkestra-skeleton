@@ -10,7 +10,7 @@ if (version_compare(phpversion(), '8.2.0', '<')) {
 	die("Maestro app requires PHP 8.2.0 or newer.");
 }
 
-require_once __DIR__ . '/installer/bootstrap/app.php';
+require_once __DIR__ . '/bootstrap/app.php';
 
 App\config()->set('env', 'development');
 App\config()->set('root', getcwd());
