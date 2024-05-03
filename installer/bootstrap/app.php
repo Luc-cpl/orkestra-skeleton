@@ -17,7 +17,7 @@ function config()
 	static $config = null;
 	$configDir = __DIR__ . '/../config';
 	$config = $config ?? new Configuration([
-		...(require $configDir . '/app.php'),
+		...(include $configDir . '/app.php'),
 	]);
 	return $config;
 }
@@ -33,7 +33,7 @@ function app()
 }
 
 $configDir = __DIR__ . '/../config';
-$providers = require $configDir . '/providers.php';
+$providers = include $configDir . '/providers.php';
 
 foreach ($providers as $provider) {
 	app()->provider($provider);
