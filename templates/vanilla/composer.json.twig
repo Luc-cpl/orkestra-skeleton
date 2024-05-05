@@ -12,14 +12,30 @@
         title: 'Package Description',
         default: 'My App',
     }) }}",
+    "version": "0.0.1",
     "type": "project",
+    "scripts": {
+        "tests": "vendor/bin/pest"
+    },
     "autoload": {
         "psr-4": {
             "App\\": "app"
         }
     },
-    "version": "0.0.1",
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    },
     "require": {
         "luccpl/orkestra": "^1.0"
+    },
+    "require-dev": {
+        "pestphp/pest": "^2.34"
     }
 }
