@@ -2,7 +2,7 @@
     "name": "luccpl/orkestra-skeleton",
     "description": "My Orkestra application",
     "type": "project",
-    "version": "1.0.2",
+    "version": "1.1.0",
     "scripts": {
         "post-create-project-cmd": [
             "composer install --no-dev --no-interaction -q",
@@ -16,6 +16,6 @@
         }
     },
     "require": {
-        "luccpl/orkestra": "^1.0"
+        "luccpl/orkestra": "^1.1"
     }
 }

@@ -39,7 +39,7 @@ class CreateCommand extends Command
         $this->addOption('replace', null, InputOption::VALUE_NONE, 'Replace current application');
     }
 
-	protected function execute(InputInterface $input, OutputInterface $output)
+	protected function execute(InputInterface $input, OutputInterface $output): int
     {
 		$this->input = $input;
 		$this->output = $output;

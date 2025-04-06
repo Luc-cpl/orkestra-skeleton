@@ -15,7 +15,6 @@ class CreateProvider implements ProviderInterface
 
 	public function register(App $app): void
 	{
-		$app->singleton(MakerData::class, MakerData::class);
 	}
 
 	public function boot(App $app): void
